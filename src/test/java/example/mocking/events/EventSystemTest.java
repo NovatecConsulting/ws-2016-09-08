@@ -46,7 +46,7 @@ public class EventSystemTest { // Spy / Mock
         doThrow(RuntimeException.class).when(listener1).eventOccurred(any(Event.class));
 
         Event event = mock(Event.class);
-        cut.notifyListeners(event);
+        cut.notifyListeners(event); // should not throw an exception!
 
         verify(listener1).eventOccurred(event);
         verify(listener2).eventOccurred(event);

@@ -1,8 +1,5 @@
 package example.assertions;
 
-/**
- * Created by SLU on 05.09.2016.
- */
 public class MyType {
 
     private final String value;
