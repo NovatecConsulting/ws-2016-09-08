@@ -1,3 +1,17 @@
+# Coding Dojo
+
+- Coding is done in pairs - driver and copilot
+- Some mechanism for regular switching of the driver and copilot is chosen (eg TimeBox, PingPong, MicroPairing, NTests, ShoutLouder)
+- Two people step up to the keyboard and begin solving the Kata in hand
+- Start from scratch
+- Use TDD? and BabySteps
+- Remember to switch the pair at the keyboard according to the mechanism chosen
+- Everyone present is expected to follow what is going on, and make helpful suggestions.
+- The pair at the keyboard should explain what they are doing so everyone can follow.
+- The audience should give advice/suggest refactorings primarily on a [GreenBar (@c2)]. At other times the pair at the keyboard may ask not to be interrupted. 
+
+This description is from [codingdojo.org][1].
+
 # Tennis Score Kata
 
 ## Introduction
@@ -5,12 +19,8 @@
 Tennis score is a short and fun kata. In a dojo, it can quickly lead to some
 discussion about design (e.g. internal representation of the game state).
 
-The original kata is from [codingdojo.org][1]. See [Wikipedia][2] for more
+The original kata is from [codingdojo.org][2]. See [Wikipedia][3] for more
 details on tennis rules.
-
-[1]: http://www.codingdojo.org/cgi-bin/index.pl?KataTennis
-[2]: http://en.wikipedia.org/wiki/Tennis#Scoring
-
 
 ## Kata
 
@@ -52,4 +62,9 @@ public void displayScoreWithFifteenForPlayerA() {
 * Extend your implementation even more, so that one can track an entire match
   using your display software. A match is a sequence of sets and is usually
   decided through either a best of three or a best of five sets system.
+
+
+[1]: http://www.codingdojo.org/cgi-bin/index.pl?RandoriKata
+[2]: http://www.codingdojo.org/cgi-bin/index.pl?KataTennis
+[3]: http://en.wikipedia.org/wiki/Tennis#Scoring
 
